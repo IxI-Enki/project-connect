@@ -41,7 +41,7 @@
     - Wartelisten für neue Kunden.
 
 ### 5. Blacknut
-- Vorteile:  
+- Vorteile:
   	- Familienfreundlich mit PIN-Schutz für bestimmte Spiele.
   	- Großer Katalog an Spielen, ideal für Kinder.
   	- Unterstützt viele Geräte.
@@ -64,26 +64,27 @@
 ---
 ## Was unsere Lösung besser machen kann:
 
-- ### Geräteflexibilität: 
-  Unsere Lösung erlaubt die Verwendung jeglicher Art von Geräten als Display oder Controller, was eine echte Innovation darstellt. Dies könnte die Barriere für den Einstieg in Cloud-Gaming senken, indem es nicht auf spezielle Hardware angewiesen ist.
+- ### Geräteflexibilität:
+  Unsere Lösung erlaubt die Verwendung jeglicher Art von Geräten als Display oder Controller, was eine echthttps://github.com/IxI-Enki/SypProject-001e Innovation darstellt. Dies könnte die Barriere für den Einstieg in Cloud-Gaming senken, indem es nicht auf spezielle Hardware angewiesen ist.
 
-- ### Einfachheit und Zugänglichkeit: 
+- ### Einfachheit und Zugänglichkeit:
   Durch die Nutzung von QR-Codes und eine einfache Rollenverteilung (Display vs. Controller) wird das **Gaming-Erlebnis für den Endbenutzer stark vereinfacht.** Dies kann dazu beitragen, dass selbst technisch weniger versierte Nutzer das System nutzen können.
 
-- ### Session-Flexibilität: 
+- ### Session-Flexibilität:
   Die Möglichkeit, **lokal, online oder gemischt zu spielen, bietet eine Vielseitigkeit, die viele aktuelle Lösungen nicht ohne Einschränkungen ermöglichen.** Dies könnte das Gaming sowohl für Einzelspieler als auch für Gruppen attraktiver machen.
 
-- ### Kosten und Preisgestaltung: 
+- ### Kosten und Preisgestaltung:
   Indem wir eine flache Struktur oder ein flexibles Bezahlsystem anbieten, könnten wir die Kostenbarriere senken, die bei einigen aktuellen Anbietern besteht, und damit mehr Nutzer gewinnen.
-  **Vor allem aber fällt das Kaufen von zusätzlicher Hardware bei unserer Lösung komplett weg.** 
+  **Vor allem aber fällt das Kaufen von zusätzlicher Hardware bei unserer Lösung komplett weg.**
 
-- ### Datenschutz und Sicherheit: 
+- ### Datenschutz und Sicherheit:
   Mit Fokus auf Datenschutz können wir Vertrauen schaffen, was in der heutigen Zeit essenziell ist. Die Möglichkeit, Sessions sicher zu machen, könnte zusätzliche Nutzer gewinnen, die sich um ihre Privatsphäre sorgen.
 
-- ### Marktfokus: 
+- ### Marktfokus:
   **Unsere Lösung könnte sich auf Nischenmärkte wie Familien oder Freundesgruppen konzentrieren, die für unkompliziertes, soziales Gaming suchen.**
 
 ---
+
 ## Wie wir das erreichen:
 
 - Entwickeln einer nahtlosen, plattformübergreifenden Software, die mit minimalem Aufwand und ohne tiefe technische Kenntnisse genutzt werden kann.
