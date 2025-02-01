@@ -1,13 +1,28 @@
 <!-- Syp Project --->
 
+<br>
+<br>
+<br>
+<br>
+<br>
 <div align="center">
 
   <img src="img/logo.png" alt="connect-logo" width=40%>
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+---
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## <p align="right"> [Full Proposal](project-proposal.md)</p>
 
@@ -37,7 +52,13 @@
   - ### 1. [Timeline](https://github.com/IxI-Enki/SypProject-001/blob/master/project-proposal.md#timeline)
   - ### 2. [Resources](https://github.com/IxI-Enki/SypProject-001/blob/master/project-proposal.md#budget)
 
---- 
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <div align="center">
 
@@ -47,3 +68,11 @@
   |   Jan Ritt          |   [git](https://github.com/IxI-Enki)   |
 
 </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
