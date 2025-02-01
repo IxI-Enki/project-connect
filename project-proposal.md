@@ -14,7 +14,7 @@ Currently, NO existing game engine that is fully browser-based meeting the follo
    - Existing browser-based games are often limited to very simple concepts, mainly found in the gambling industry.
    - Latency issues prevent real-time interaction in more complex game genres.
 
-### **Solution & Challenges**
+### Solution & Challenges
 
 - Web-based game services like **Google Stadia/Xbox Cloud Gaming** do exist, but are **mainly streaming services** that require powerful servers.
 - Technologies like **WebSockets and WebRTC** enable real-time communication, but no unified platform has been developed specifically for browser-based multiplayer games.
@@ -28,14 +28,14 @@ Currently, NO existing game engine that is fully browser-based meeting the follo
 
 - ### Registration and Role Assignment:
 
-    - Display:
-      Each session can be shown on one or more displays.
+  - Display:
+    Each session can be shown on one or more displays.
 
-    - Controller:
-      Smartphones or tablets can serve as game controllers.
+  - Controller:
+    Smartphones or tablets can serve as game controllers.
 
-    - Role Selection:
-     Users choose on the landing page whether their device will act as a display or controller.
+  - Role Selection:
+    Users choose on the landing page whether their device will act as a display or controller.
 
 - ### Session Management:
 
@@ -45,11 +45,11 @@ Currently, NO existing game engine that is fully browser-based meeting the follo
   - Session Joining:
     Others scan the QR code or use the link to connect.
 
+  - User-Friendliness:
+    Easy operation through QR codes and an intuitive, minimalist interface.
+
   - Flexibility:
     Support for local, online, and mixed gaming modes.
-
-- ### User-Friendliness:
-  - Easy operation through QR codes and an intuitive, minimalist interface.
 
 - ### Technical Implementation:
 
@@ -64,16 +64,21 @@ Currently, NO existing game engine that is fully browser-based meeting the follo
 ---
 
 ## <p align="center"> 3. Objectives/Goals  </p>
-The goal of this project is to develop a fully browser-based game engine with the following features:
 
 - **Simplicity & Accessibility**: The engine should be intuitive and easy to use for users of all ages.
+
 - **Platform Independence**: Games should run on any modern web browser without requiring installation or specialized hardware.
+
 - **Mobile Devices as Controllers/Game Pads**: Smartphone and tablets can be registered as input devices since they are widely available and accessible to most users.
+
 - **Flexible Display Options**: Any internet-capable screen with a browser (e.g.smartTvs, laptops, tablets, phones) can be used as a display for the game.
+
 - **Optimization for Multiplayer Scenarios**: The engine will support different game modes:
 
   - **Couch Co-op**: Multiplayer, people in the same room play together.
+
   - **Distant Multiplayer**: Players connect over the internet.
+
   - **Multi-Screen**: Players can view different content on separate displays for innovative gameplay mechanics. e.g. active player, common area, opponent player.
 
 - **Technical Aspects and Expandability**:
@@ -91,24 +96,40 @@ The goal of this project is to develop a fully browser-based game engine with th
 ### Technical Frameworks
 
 - **Technology Stack**:
-    >  - Frontend: HTML5, CSS and JavaScript including Libraries and Frameworks. **>>TO BE REPLACED<<**
-  - Real-time communication: WebSockets / WebRTC for synchronization between controllers and screens
-  - Backend:
-  >    Node.js with Express / WebSocket server for session and turn management. **>>TO BE REPLACED<<**
-  - Storage: Minimal data requirements (e.g. for high scores and game states) => Optional integration of NOSQL databases like MongoDB or Firebase.
-  - Compatibility: Initial version Android & Chromium, later expansion to iOS.
+  - **Frontend**:
+    Blazor/AvaloniaUI for the frontend
+    <!-- HTML5, CSS and JavaScript includin g Libraries and Frameworks. -->
+
+  - **Real-time communication**:
+    WebSockets / WebRTC for synchronization between controllers and screens
+
+  - **Backend**:
+    ASP.NET for the backend
+    <!-- Node.js with Express / WebSocket server for session and turn management. -->
+
+  - **Storage**:
+    Minimal data requirements (e.g. for high scores and game states) => Optional integration of NOSQL databases like MongoDB or Firebase.
+
+  - **Compatibility**:
+    Initial version Android & Chromium, later expansion to iOS.
 
 ### Gameplay Mechanics and Use Cases
 
-- **Game Types**: Limited to turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
+- **Game Types**:
+  Limited to turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
+
 - **Connection Methods**:
   - Devices identify themselves via QR codes or short links for easy user-friendly registration in the game.
   - No app required - everything runs in te browser!
 
 ### Limitations and Challenges
 
-- **Latency Issues**: Real-time games require fast reaction times. This is not our target group.
-- **Platform Differences**: iOS and Safari have different restrictions for WebSockets and WebRTC!
+- **Latency Issues**:
+  Real-time games require fast reaction times. This is not our target group.
+
+- **Platform Differences**:
+  iOS and Safari have different restrictions for WebSockets and WebRTC!
+
 - **Privacy & Security**:
   - Minimization of personal data collection, the least possible data overhead.
   - Secure session management
@@ -118,7 +139,7 @@ The goal of this project is to develop a fully browser-based game engine with th
 
 ## <p align="center"> 5. Opportunities and Risks  </p>
 
-- ### 5.1 Risks:
+- ### Risks:
 
   - Technical Challenges:
     Synchronization across different devices could lead to latency and compatibility issues, hence in the initial development phase, we focus on integrating turn-based (card) games and similar.
@@ -136,7 +157,7 @@ The goal of this project is to develop a fully browser-based game engine with th
 
   ---
 
-- ### 5.2 Opportunities:
+- ### Opportunities:
 
   - Market Leader:
     Potential to establish a new market leader in gaming connectivity.
@@ -149,7 +170,7 @@ The goal of this project is to develop a fully browser-based game engine with th
 
   ---
 
-> ### Our Solution Imagines It Different:
+> ### Summary:
 
 - #### Device Flexibility:
   Our solution allows the use of any type of device as either a display or a controller, local co-op, or online, which is a true innovation. This could lower the barrier to entry for cloud gaming by not requiring specialized hardware.
@@ -201,7 +222,7 @@ The goal of this project is to develop a fully browser-based game engine with th
   - Marketing:
     Budget for the launch and advertising of the platform.
 
-### Human Resources:
+### Resources:
 
   - A team of developers (Frontend, Backend, Mobile, QA).
 

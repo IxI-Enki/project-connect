@@ -25,4 +25,4 @@
   - Market Competition:
     Competition from established or emerging technologies.
 
-- #### [Comprehensive Market-analysis](market_analysis.md)
+  - #### [Comprehensive Market-analysis](market_analysis.md)
