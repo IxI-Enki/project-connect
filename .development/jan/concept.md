@@ -1,38 +1,38 @@
-## Konzept
+## Concept
 
-  > Connect ist eine Plattform, die das Gaming revolutioniert, indem sie es ermöglicht, jegliche Art von browserfähigem Gerät als Display oder Controller zu nutzen.
+  > Connect is a platform that revolutionizes gaming by allowing any type of browser-capable device to be used as a display or controller.
 
-- ### Registrierung und Rollenverteilung:
+- ### Registration and Role Assignment:
 
     - Display:
-      Jede Session kann auf einem oder mehreren Displays gezeigt werden.
+      Each session can be shown on one or more displays.
 
     - Controller:
-      Smartphones oder Tablets können als Spielcontroller dienen.
+      Smartphones or tablets can serve as game controllers.
 
-    - Rollenwahl:
-      Benutzer wählen auf der Landing Page, ob ihr Gerät als Display oder Controller agiert.
+    - Role Selection:
+     Users choose on the landing page whether their device will act as a display or controller.
 
-- ### Session-Verwaltung:
+- ### Session Management:
 
-  - Session-Erstellung:
-    Ein Benutzer erstellt eine Session und erhält einen QR-Code oder Link.
+  - Session Creation:
+    A user creates a session and receives a QR code or link.
 
-  - Session-Beitritt:
-    Andere scannen den QR-Code oder nutzen den Link, um sich zu verbinden.
+  - Session Joining:
+    Others scan the QR code or use the link to connect.
 
-  - Flexibilität:
-    Unterstützung für lokale, online und gemischte Spielmodi.
+  - Flexibility:
+    Support for local, online, and mixed gaming modes.
 
-- ### Nutzerfreundlichkeit:
-  - Einfache Bedienung durch QR-Codes und ein intuitives, minimalistisches Interface.
+- ### User-Friendliness:
+  - Easy operation through QR codes and an intuitive, minimalist interface.
 
-- ### Technische Umsetzung:
+- ### Technical Implementation:
 
   - Web-App:
-    Blazor/AvaloniaUI für Frontend, ASP.NET für Backend, Oracle als Datenbank/-manager.
+    Blazor/AvaloniaUI for the frontend, ASP.NET for the backend, SQLite as the database/manager.
     <!-- React/Angular für Frontend, Node.js/Express.js oder Django für Backend, PostgreSQL/MongoDB für Datenbank. -->
 
   - Mobile-App:
-    Kann mit dem selben Tech-stack realisiert werden.
+    Can be implemented with the same tech stack.
     <!-- React Native/Flutter für plattformübergreifende Entwicklung. -->

@@ -1,26 +1,28 @@
-## Möglichkeiten und Risiken
+## Opportunities and Risks
 
-- ### Möglichkeiten:
+- ### Opportunities:
 
-  - Marktführer: 
-    Potenzial, einen neuen Marktführer in der Gaming-Konnektivität zu etablieren.
-  
-  - Erweiterbarkeit: 
-    Möglichkeit zur Integration weiterer Funktionen wie Cloud-Gaming, komplexere Spiele, Spiele mit Lern-Kontext.
+  - Market Leader:
+    Potential to establish a new market leader in gaming connectivity.
 
-  - Community-Building: 
-    Stärken der sozialen Interaktion und Community-Aktivitäten. Digitalisierung des Familien-Spiele-Abends.
+  - Expandability:
+    Possibility to integrate additional features like cloud gaming, more complex games, and educational games.
 
-- ### Risiken:
+  - Community Building:
+    Strengthening social interaction and community activities. Digitizing family game night.
 
-  - Technische Herausforderungen: 
-    Synchronisation über verschiedene Geräte könnte zu Latenz und Kompatibilitätsproblemen führen, daher fokusieren wir uns in der ersten Entwiklungsphase auf die Einbindung von Rundenbasierten (Karten-)Spielen u.Ä..
+- ### Risks:
 
-  - Benutzerakzeptanz: 
-    Risiko, dass die Nutzer nicht bereit sind, von herkömmlichen Systemen abzuweichen.
+  - Technical Challenges:
+    Synchronization across different devices could lead to latency and compatibility issues, hence in the initial development phase, we focus on integrating turn-based (card) games and similar.
 
-  - Datenschutz: 
-    Gefahr von Datenschutzverletzungen oder Cyber-Angriffen.
+  - User Acceptance:
+    Risk that users might not be willing to deviate from conventional systems.
 
-  - Marktkonkurrenz: 
-    Wettbewerb durch etablierte oder neue Technologien.
+  - Data Privacy:
+    Danger of privacy breaches or cyber-attacks.
+
+  - Market Competition:
+    Competition from established or emerging technologies.
+
+- #### [Comprehensive Market-analysis](market_analysis.md)
