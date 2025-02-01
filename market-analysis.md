@@ -1,3 +1,14 @@
+# Market Analysis
+
+- ### Market Conditions:
+  The cloud gaming market is growing, but there's still skepticism regarding latency and dependence on internet connectivity.
+
+  - #### Major tech companies clearly dominate the market, but there is room for niche solutions.
+
+  - #### Flexibility and accessibility are key to acceptance.
+
+---
+
 > Summary of Existing Cloud Gaming Solutions
 
 ### 1. NVIDIA GeForce NOW
@@ -51,11 +62,3 @@
   - Not as well-known as larger providers.
 
 ---
-
-# Market Analysis
-- ### Market Conditions:
-  The cloud gaming market is growing, but there's still skepticism regarding latency and dependence on internet connectivity.
-
-  - #### Major tech companies clearly dominate the market, but there is room for niche solutions.
-
-  - #### Flexibility and accessibility are key to acceptance.
