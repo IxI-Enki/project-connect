@@ -307,25 +307,38 @@ gantt
 
 ## Milestones
 
-### **Concept Finalized**
-  - **Date:** April 7, 2025
-  - **Explanation:** This milestone marks the completion of the initial concept design phase. By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.
+### **Concept Finalized**  
+  - **Date:** April 7, 2025  
+  - **Explanation:**  
+    This milestone marks the completion of the initial concept design phase.    
+    By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.  
 
-### **Platform MVP**
-  - **Date:** July 6, 2025
-  - **Explanation:** The Minimum Viable Product (MVP) of the platform is ready. This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions. It's a critical point to assess the platform's core functionalities before expanding further.
+### **Platform MVP**  
+  - **Date:** July 6, 2025  
+  - **Explanation:**  
+    The Minimum Viable Product (MVP) of the platform is ready.  
+    This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions.  
+    It's a critical point to assess the platform's core functionalities before expanding further.  
 
-### **Emulator Integration**
-  - **Date:** October 4, 2025
-  - **Explanation:** This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational. Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.
+### **Emulator Integration**  
+  - **Date:** October 4, 2025  
+  - **Explanation:**  
+    This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational.  
+    Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.  
 
-### **Beta Release**
-  - **Date:** December 15, 2025
-  - **Explanation:** The beta version of the platform is released to a select group of users. This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs. Adjustments based on this feedback will be integrated into the final product.
+### **Beta Release**  
+  - **Date:** December 15, 2025  
+  - **Explanation:**  
+    The beta version of the platform is released to a select group of users.  
+    This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs.  
+    Adjustments based on this feedback will be integrated into the final product.  
 
-### **Final Launch**
-  - **Date:** March 22, 2026
-  - **Explanation:** This milestone signifies the completion of all preparatory work for the official launch. It includes final checks like server load tests, ensuring all systems are go, and marketing efforts are in place. The day before the actual launch is dedicated to ensuring everything is set for a successful rollout.
+### **Final Launch**  
+  - **Date:** March 22, 2026  
+  - **Explanation:**  
+    This milestone signifies the completion of all preparatory work for the official launch.  
+    It includes final checks like server load tests, ensuring all systems are go, and marketing efforts are in place.  
+    The day before the actual launch is dedicated to ensuring everything is set for a successful rollout.  
 
 ---
 
