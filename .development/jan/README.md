@@ -29,7 +29,7 @@ Our [analysis of the current market]() shows that the avaliable offerings often 
 ## Inventing a Solution
 
 A system that offers the flexibility to use any internet-capable device as a display and/or controller to connect people easily could therefore represent a revolution in gaming by breaking down barriers to accessibility, user-friendliness, and security.
-
+ 
 ---
 
 ## Current Market Situation
