@@ -71,7 +71,7 @@ To address the identified issues, we propose an innovative platform that leverag
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
 	| **Market Size (2023)**         | Digital console gaming market sales at \$32.1 billion <sub>([Newzoo's Global Games Market Report](https://newzoo.com))</sub> |
-	| **Projected Market Size (2032)**| Expected to grow from \\$11.3 billion in 2022 to \$44.1 billion by 2032, at a CAGR of 15% <sub>([Statista](https://www.statista.com))</sub> |
+	| **Projected Market Size (2032)**| Expected to grow from \$11.3 billion in 2022 to \$44.1 billion by 2032, at a CAGR of 15% <sub>([Statista](https://www.statista.com))</sub> |
 	| **Key Users**                  | Hardcore gamers, those preferring physical interaction with gaming <sub>([Gaming Industry Insights](https://www.gamingindustryinsights.com))</sub> |
 	| **Leading Companies**           | Sony Interactive Entertainment (PlayStation), Microsoft (Xbox), Nintendo <sub>([VentureBeat](https://venturebeat.com))</sub> |
 	| **Devices**                     | PlayStation, Xbox, Nintendo Switch <sub>([IGN](https://www.ign.com))</sub>             |
