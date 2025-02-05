@@ -21,7 +21,7 @@ Despite the significant advancements in gaming technology, there remain challeng
 
   - This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
-Our [analysis of the current market]() shows that the avaliable offerings often do not meet these requirements.
+Our [analysis of the current market](https://github.com/IxI-Enki/project-connect/tree/master/.development/jan#current-market-situation) shows that the avaliable offerings often do not meet these requirements.
 A system that offers the flexibility to use any internet-capable device as a display or controller to connect people easily could therefore represent a revolution in gaming by breaking down barriers to accessibility, user-friendliness, and security.
 
 ---
