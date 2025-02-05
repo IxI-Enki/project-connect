@@ -119,9 +119,9 @@ To address the identified issues, we propose an innovative platform that leverag
 
 ## **Technical Implementation:**
 - **Web-App:** Blazor/AvaloniaUI for the frontend, ASP.NET for the backend, and a light/slim database/manager.
-		<!-- React/Angular für Frontend, Node.js/Express.js oder Django für Backend, PostgreSQL/MongoDB für Datenbank. -->
+  <!-- React/Angular für Frontend, Node.js/Express.js oder Django für Backend, PostgreSQL/MongoDB für Datenbank. -->
 - **Mobile-App:** Can be implemented with the same tech stack.
-		<!-- React Native/Flutter für plattformübergreifende Entwicklung. -->
+  <!-- React Native/Flutter für plattformübergreifende Entwicklung. -->
 
 ---
 
@@ -131,37 +131,37 @@ To address the identified issues, we propose an innovative platform that leverag
 ## Phase 1: Platform Creation
 
 - **Onboarding and Connection:**
-	- Develop a system for user onboarding and device/player connection.
-		- **Simplicity & Accessibility**: The engine should be intuitive and easy to use for users of all ages.
-		- **Platform Independence**: Games should run on any modern web browser without requiring installation or specialized hardware.
+  - Develop a system for user onboarding and device/player connection.
+    - **Simplicity & Accessibility**: The engine should be intuitive and easy to use for users of all ages.
+    - **Platform Independence**: Games should run on any modern web browser without requiring installation or specialized hardware.
 
 - **Own Emulator Introduction:**
-	- Introduce an **own Emulator** for running popular family games, starting with card games like UNO and Schnapsen, followed by board games.
-	- Emphasis on being uncomplicated and free.
+  - Introduce an **own Emulator** for running popular family games, starting with card games like UNO and Schnapsen, followed by board games.
+  - Emphasis on being uncomplicated and free.
 
 - **Mobile Devices as Controllers/Game Pads:**
-	- Smartphone and tablets can be registered as input devices since they are widely available and accessible to most users.
+  - Smartphone and tablets can be registered as input devices since they are widely available and accessible to most users.
 
 - **Flexible Display Options:**
-	- Any internet-capable screen with a browser (e.g. SmartTVs, laptops, tablets, phones) can be used as a display for the game.
+  - Any internet-capable screen with a browser (e.g. SmartTVs, laptops, tablets, phones) can be used as a display for the game.
 
 ## Phase 2: Expansion to Open-Source Emulators
 
 - **Integration of Open-Source Console Emulators:**
-	- Gradually embed open-source emulators for various consoles, one at a time.
-	- Establish a community-driven approach to decide the order of console inclusion.
+  - Gradually embed open-source emulators for various consoles, one at a time.
+  - Establish a community-driven approach to decide the order of console inclusion.
 
 - **ROM Library Management:**
-	- Host-user provides a ROM - we check it against our library for authenticity.
-	- If the ROM is an unaltered original, no upload of the entire rom is necessary, and we can instantly provide the game interface to both client and host users.
-		> We won't store fully executable roms in our library, instead we provide the bulk of the rom-data from our servers and combine it with a fraction of the host-users rom.
+  - Host-user provides a ROM - we check it against our library for authenticity.
+  - If the ROM is an unaltered original, no upload of the entire rom is necessary, and we can instantly provide the game interface to both client and host users.
+    > We won't store fully executable roms in our library, instead we provide the bulk of the rom-data from our servers and combine it with a fraction of the host-users rom.
 
 ### Phase 2b: Subscription for Advanced ROM Users
 
 - **Subscription Model:**
-	- Offer advanced users/creators the ability to upload "modified" ROMs to our servers.
-	- These could be original games with altered gameplay mechanics ("hacked" titles) or entirely new, self-made games not previously available on our platform.
-	- Requires additional server space for storage.
+  - Offer advanced users/creators the ability to upload "modified" ROMs to our servers.
+  - These could be original games with altered gameplay mechanics ("hacked" titles) or entirely new, self-made games not previously available on our platform.
+  - Requires additional server space for storage.
 
 ---
 
@@ -177,6 +177,7 @@ To address the identified issues, we propose an innovative platform that leverag
 - **Possible future expansion to iOS + Safari** to reach a broader user-base.
 - Use of modern web technologies to provide real-time interaction and synchronization.
 - **Latency Minimization through Turn-Based Gameplay**: Since browser-based technologies inherently introduce some delays, the focus will be on turn-based games to ensure a fluid gaming experience.
+
 ---
 
 # <p align="center"> 4. General Conditions and Constraints </p>
@@ -184,44 +185,43 @@ To address the identified issues, we propose an innovative platform that leverag
 ## Technical Frameworks
 
 - **Technology Stack**:
-	- **Frontend**:
-		Blazor/AvaloniaUI for the frontend
-		<!-- HTML5, CSS and JavaScript includin g Libraries and Frameworks. -->
+  - **Frontend**:
+    Blazor/AvaloniaUI for the frontend
+	<!-- HTML5, CSS and JavaScript includin g Libraries and Frameworks. -->
+  - **Real-time communication**:
+    WebSockets / WebRTC for synchronization between controllers and screens
 
-	- **Real-time communication**:
-		WebSockets / WebRTC for synchronization between controllers and screens
+  - **Backend**:
+    ASP.NET for the backend
+	<!-- Node.js with Express / WebSocket server for session and turn management. -->
 
-	- **Backend**:
-		ASP.NET for the backend
-		<!-- Node.js with Express / WebSocket server for session and turn management. -->
+  - **Storage**:
+    Integration of SQL databases like ORACLEDB, MongoDB or Firebase.
 
-	- **Storage**:
-		Integration of SQL databases like ORACLEDB, MongoDB or Firebase.
-
-	- **Compatibility**:
-		Initial version Android & Chromium, later expansion to iOS.
+  - **Compatibility**:
+    Initial version Android & Chromium, later expansion to iOS.
 
 ## Gameplay Mechanics and Use Cases
 
 - **Game Types**:
-	For our first goals we scope for turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
+  For our first goals we scope for turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
 
 - **Connection Methods**:
-	- Devices identify themselves via QR codes or short links for easy user-friendly registration in the game.
-	- No app required - everything runs in te browser!
+  - Devices identify themselves via QR codes or short links for easy user-friendly registration in the game.
+  - No app required - everything runs in te browser!
 
 ## Limitations and Challenges
 
 - **Latency Issues**:
-	Real-time games require fast reaction times.
+  Real-time games require fast reaction times.
 
 - **Platform Differences**:
-	iOS and Safari have different restrictions for WebSockets and WebRTC!
+  iOS and Safari have different restrictions for WebSockets and WebRTC!
 
 - **Privacy & Security**:
-	- Minimization of personal data collection, the least possible data overhead.
-	- Secure session management
-	- No third-party cloud services needed unless necessary for data protection.
+  - Minimization of personal data collection, the least possible data overhead.
+  - Secure session management
+  - No third-party cloud services needed unless necessary for data protection.
 
 ---
 
@@ -230,81 +230,81 @@ To address the identified issues, we propose an innovative platform that leverag
 ## Risks
 
 - **Technical Challenges:**
-	- **Cross-Platform Compatibility:** Ensuring consistent performance across various browsers (e.g., Chrome, Firefox, Safari) and operating systems (Android, iOS) could be challenging.
-	- **Scalability Issues:** As the user base grows, server load from hosting ROM libraries and managing modified ROM uploads could strain infrastructure.
+  - **Cross-Platform Compatibility:** Ensuring consistent performance across various browsers (e.g., Chrome, Firefox, Safari) and operating systems (Android, iOS) could be challenging.
+  - **Scalability Issues:** As the user base grows, server load from hosting ROM libraries and managing modified ROM uploads could strain infrastructure.
 
 - **Data Privacy and Security:**
-	- **ROM Verification Risks:** The process of checking user-provided ROMs for authenticity could inadvertently expose the platform to malicious files or intellectual property disputes if not handled securely.
-	- **User Data Exposure:** Storing user data (e.g., game progress, session information) could make the platform a target for cyberattacks.
+  - **ROM Verification Risks:** The process of checking user-provided ROMs for authenticity could inadvertently expose the platform to malicious files or intellectual property disputes if not handled securely.
+  - **User Data Exposure:** Storing user data (e.g., game progress, session information) could make the platform a target for cyberattacks.
 
 - **Market Competition:**
-	- **Established Emulator Platforms:** Competing with well-known emulator projects or platforms (e.g., RetroArch) that already have large communities and established ROM libraries could be difficult.
+  - **Established Emulator Platforms:** Competing with well-known emulator projects or platforms (e.g., RetroArch) that already have large communities and established ROM libraries could be difficult.
 
 ---
 
 ## Opportunities
 
 - **Expandability:**
-	- **AI-Driven Features:** Use AI to enhance gameplay, such as adaptive difficulty in games, or to assist in moderating and verifying user-uploaded ROMs for authenticity and safety.
-	- **Educational Content:** Expand the platform to include educational games or simulations, leveraging the emulator framework to teach coding, history, or other subjects through interactive experiences.
+  - **AI-Driven Features:** Use AI to enhance gameplay, such as adaptive difficulty in games, or to assist in moderating and verifying user-uploaded ROMs for authenticity and safety.
+  - **Educational Content:** Expand the platform to include educational games or simulations, leveraging the emulator framework to teach coding, history, or other subjects through interactive experiences.
 
 - **Community Building:**
-	- **User-Generated Content Ecosystem:** Encourage a thriving ecosystem where users can share, rate, and review modified ROMs, creating a vibrant, creative community around game development.
+  - **User-Generated Content Ecosystem:** Encourage a thriving ecosystem where users can share, rate, and review modified ROMs, creating a vibrant, creative community around game development.
 
 - **Monetization Potential:**
-	- **Partnerships with Indie Developers and Emulator Community:** Collaborate with indie game developers to feature their games on the platform, expanding the library and attracting new users.
-	- **Sponsorships and Advertising:** Partner with brands for in-game sponsorships or non-intrusive ads.
+  - **Partnerships with Indie Developers and Emulator Community:** Collaborate with indie game developers to feature their games on the platform, expanding the library and attracting new users.
+  - **Sponsorships and Advertising:** Partner with brands for in-game sponsorships or non-intrusive ads.
 
 - **Global Reach and Accessibility:**
-	- **Localization:** Translate the platform and games into multiple languages to attract a global audience, especially in regions with high mobile device usage.
-	- **Low-Bandwidth Optimization:** Further optimize the platform for users in areas with limited internet access, ensuring accessibility for a broader demographic.
+  - **Localization:** Translate the platform and games into multiple languages to attract a global audience, especially in regions with high mobile device usage.
+  - **Low-Bandwidth Optimization:** Further optimize the platform for users in areas with limited internet access, ensuring accessibility for a broader demographic.
 
 - **Sustainability and Innovation:**
-	- **Open-Source Collaboration:** Contribute to or collaborate with open-source emulator projects, enhancing credibility and potentially gaining support from the open-source community.
+  - **Open-Source Collaboration:** Contribute to or collaborate with open-source emulator projects, enhancing credibility and potentially gaining support from the open-source community.
 	---
 
 # <p align="center"> 6. Planning  </p>
 
 ```mermaid
 gantt
-		title Connect - Timeline
-		dateFormat  YYYY-MM-DD
-		axisFormat  %m-%d
-		section Planning & Research
-		Market Analysis          :m1, 2025-02-05, 21d
-		Technical Feasibility Study : m2, 2025-03-04, 14d
-		Concept Design            : m3, 2025-03-18, 21d
-		section Development Phase 1: Platform Creation
-		UI/UX Design              :a1, 2025-04-08, 30d
-		Backend Development        :a2, 2025-04-08, 45d
-		Frontend Development       :a3, 2025-05-23, 30d
-		Own Emulator Development   :a4, 2025-05-08, 60d
-		Device Integration Testing :a5, 2025-06-22, 15d
-		section Development Phase 2: Open-Source Emulators
-		Emulator Integration       :b1, 2025-07-07, 45d
-		ROM Library Management     :b2, 2025-08-21, 30d
-		Community Engagement Setup :b3, 2025-09-20, 15d
-		section Development Phase 2b: Subscription Model
-		Subscription System Design :c1, 2025-10-05, 21d
-		Server Expansion for ROMs  :c2, 2025-10-26, 30d
-		Testing Modified ROMs      :c3, 2025-11-25, 21d
-		section Quality Assurance
-		Beta Testing               :d1, 2025-12-16, 30d
-		User Feedback Integration  :d2, 2026-01-15, 15d
-		Final Bug Fixing           :d3, 2026-01-30, 15d
-		section Launch Preparation
-		Marketing Campaign         :e1, 2026-02-14, 30d
-		Final Deployment Setup     :e2, 2026-03-16, 7d
-		section Launch
-		Platform Launch            :done, 2026-03-23, 1d
-		section Milestones
-		Milestone Concept Finalized : milestone, m3, 2025-04-07, "Concept Design Complete"
-		Milestone Platform MVP : milestone, a5, 2025-07-06, "Platform MVP Ready"
-		Milestone Emulator Integration : milestone, b3, 2025-10-04, "Emulator & ROM System Operational"
-		Milestone Beta Release : milestone, d1, 2025-12-15, "Beta Version Released"
-		Milestone Final Launch : milestone, done, 2026-03-22, "Pre-Launch Checklist"
-
+	title Connect - Timeline
+	dateFormat  YYYY-MM-DD
+	axisFormat  %m-%d
+	section Planning & Research
+	Market Analysis          :m1, 2025-02-05, 21d
+	Technical Feasibility Study : m2, 2025-03-04, 14d
+	Concept Design            : m3, 2025-03-18, 21d
+	section Development Phase 1: Platform Creation
+	UI/UX Design              :a1, 2025-04-08, 30d
+	Backend Development        :a2, 2025-04-08, 45d
+	Frontend Development       :a3, 2025-05-23, 30d
+	Own Emulator Development   :a4, 2025-05-08, 60d
+	Device Integration Testing :a5, 2025-06-22, 15d
+	section Development Phase 2: Open-Source Emulators
+	Emulator Integration       :b1, 2025-07-07, 45d
+	ROM Library Management     :b2, 2025-08-21, 30d
+	Community Engagement Setup :b3, 2025-09-20, 15d
+	section Development Phase 2b: Subscription Model
+	Subscription System Design :c1, 2025-10-05, 21d
+	Server Expansion for ROMs  :c2, 2025-10-26, 30d
+	Testing Modified ROMs      :c3, 2025-11-25, 21d
+	section Quality Assurance
+	Beta Testing               :d1, 2025-12-16, 30d
+	User Feedback Integration  :d2, 2026-01-15, 15d
+	Final Bug Fixing           :d3, 2026-01-30, 15d
+	section Launch Preparation
+	Marketing Campaign         :e1, 2026-02-14, 30d
+	Final Deployment Setup     :e2, 2026-03-16, 7d
+	section Launch
+	Platform Launch            :done, 2026-03-23, 1d
+	section Milestones
+	Milestone Concept Finalized : milestone, m3, 2025-04-07, "Concept Design Complete"
+	Milestone Platform MVP : milestone, a5, 2025-07-06, "Platform MVP Ready"
+	Milestone Emulator Integration : milestone, b3, 2025-10-04, "Emulator & ROM System Operational"
+	Milestone Beta Release : milestone, d1, 2025-12-15, "Beta Version Released"
+	Milestone Final Launch : milestone, done, 2026-03-22, "Pre-Launch Checklist"
 ```
+
 ## Milestones
 
 ### **Concept Finalized**
@@ -349,34 +349,34 @@ gantt
 
 ### Development Costs
 - **Team Salaries:**
-	- **Full-Time Developers:**
-		- 2-3 Developers at €80.000 - €150.000/year each = **€160.000 - €450,000/year**.
-	- **Part-Time/Contractors:**
-		- UI/UX, Art, etc. at €50/hour for 10 hours/week, 4 specialists = **€104.000/year**.
+  - **Full-Time Developers:**
+    - 2-3 Developers at €80.000 - €150.000/year each = **€160.000 - €450,000/year**.
+  - **Part-Time/Contractors:**
+    - UI/UX, Art, etc. at €50/hour for 10 hours/week, 4 specialists = **€104.000/year**.
 
 - **Software Tools and Licenses:**
-	- Game Development (e.g., Unity/UE): €0 - €1500/year.
-	- Web Tools, Hosting, Domain: €1000 - €5000/year.
-	- **Total Software Costs:** **€1000 - €6500/year**.
+  - Game Development (e.g., Unity/UE): €0 - €1500/year.
+  - Web Tools, Hosting, Domain: €1000 - €5000/year.
+  - **Total Software Costs:** **€1000 - €6500/year**.
 
 - **Hardware:**
-	- **Development Servers:** €5000 - €10.000.
-	- **Testing Devices:** €3000 - €10.000.
-	- **Total Hardware Costs:** **€8000 - €20.000**.
+  - **Development Servers:** €5000 - €10.000.
+  - **Testing Devices:** €3000 - €10.000.
+  - **Total Hardware Costs:** **€8000 - €20.000**.
 
 - **Marketing and Promotion:**
-	- **Initial Launch:**
-		- Social Media, Influencers, Ads = **€10.000 - €20.000**.
-	- **Ongoing Marketing:**
-		- Monthly Costs = **€5000 - €15.000/month**.
-		- Annual Ongoing = **€60.000 - €180.000/year**.
-	- **Total Marketing:** **€70.000 - €200.000/year**.
+  - **Initial Launch:**
+    - Social Media, Influencers, Ads = **€10.000 - €20.000**.
+  - **Ongoing Marketing:**
+    - Monthly Costs = **€5000 - €15.000/month**.
+    - Annual Ongoing = **€60.000 - €180.000/year**.
+  - **Total Marketing:** **€70.000 - €200.000/year**.
 
 - **Legal and Compliance:**
-	- Legal Advice for Copyright, ROMs = **€5000 - €20.000**.
+  - Legal Advice for Copyright, ROMs = **€5000 - €20.000**.
 
 - **Contingency Fund:**
-	- 10% - 15% of budget = **€50.000 - €75.000**.
+  - 10% - 15% of budget = **€50.000 - €75.000**.
 
 </details>
 
@@ -384,16 +384,16 @@ gantt
   - **Low Estimate:** €400.000
   - **High Estimate:** €750.000 (Including higher salaries, robust marketing).
 
-- #### Estimate on Costdistribution  
+- #### Estimate on Cost-distribution  
 
 ```mermaid
 pie title Breakdown
-		"Team Salaries" : 264000
-		"Software" : 1000
-		"Hardware" : 8000
-		"Marketing" : 70000
-		"Legal" : 5000
-		"Contingency" : 50000
+	"Team Salaries" : 264000
+	"Software" : 1000
+	"Hardware" : 8000
+	"Marketing" : 70000
+	"Legal" : 5000
+	"Contingency" : 50000
 ```
 
  <!-- <img alt="mean costs breakdown" src="breakdown-1.png" width= 60%> -->
