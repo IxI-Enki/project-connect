@@ -3,6 +3,7 @@
 
 # Initial Situation
 *Once upon a time, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
+
 By merging these concepts, we can bring back the familial atmosphere of game nights into living rooms and beyond.
 Despite the significant advancements in gaming technology, there remain challenges that hinder a seamless gaming experience. Particularly noticeable are the limitations due to dependence on specific hardware and the complexity of setting up multiple devices for group play.
 
@@ -22,7 +23,12 @@ Despite the significant advancements in gaming technology, there remain challeng
   - This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
 Our [analysis of the current market]() shows that the avaliable offerings often do not meet these requirements.
-A system that offers the flexibility to use any internet-capable device as a display or controller to connect people easily could therefore represent a revolution in gaming by breaking down barriers to accessibility, user-friendliness, and security.
+
+---
+
+## Inventing a Solution
+
+A system that offers the flexibility to use any internet-capable device as a display and/or controller to connect people easily could therefore represent a revolution in gaming by breaking down barriers to accessibility, user-friendliness, and security.
 
 ---
 
