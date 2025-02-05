@@ -27,9 +27,19 @@ Our [analysis of the current market]() shows that the avaliable offerings often 
 ---
 
 ## Inventing a Solution
+ 
+To address the identified issues, we propose an innovative platform that leverages the power of open-source emulators combined with a versatile device connection system:
 
-A system that offers the flexibility to use any internet-capable device as a display and/or controller to connect people easily could therefore represent a revolution in gaming by breaking down barriers to accessibility, user-friendliness, and security.
+- ### Key Features:
+  - **Popular family games**: Can be played out of the box.
 
+  - #### Universal Device Integration:
+    - **As Controllers**: Any smartphone or tablet can be transformed into a game controller through our intuitive software. Users can join a gaming session by scanning a QR code or using a short link, with the app automatically adapting the device's interface to act as a controller for the game.
+
+    - **As Displays**: Similarly, any device with a browser can serve as a display. This includes smart TVs, laptops, tablets, and even smartphones, making it possible for players to share screens in real-time, whether they are in the same room or across the globe.
+
+  - **Open-Source Emulators**: By integrating open-source emulators into our platform, we can support a wide array of classic and modern games without the need for proprietary hardware.
+ 
 ---
 
 ## Current Market Situation
