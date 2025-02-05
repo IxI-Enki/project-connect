@@ -6,17 +6,17 @@ By merging these concepts, we can bring back the familial atmosphere of game nig
 Despite the significant advancements in gaming technology, there remain challenges that hinder a seamless gaming experience. Particularly noticeable are the limitations due to dependence on specific hardware and the complexity of setting up multiple devices for group play.
 
 ### Security Risks:
-	- Using cloud services for gaming can lead to privacy issues since sensitive data such as game saves or personal information might be stored in the cloud.
+  - Using cloud services for gaming can lead to privacy issues since sensitive data such as game saves or personal information might be stored in the cloud.
 
 	- Security vulnerabilities in device communication could also lead to unauthorized access or data breaches.
 
 ### Complexity Issues:
-	- Configuring multiplayer mode often requires complex setups, which can be a barrier for users less familiar with technology.
+  - Configuring multiplayer mode often requires complex setups, which can be a barrier for users less familiar with technology.
 
 	- The need to synchronize various platforms and devices can negatively impact the gaming experience.
 
 ### Dependence on Third Parties:
-	- Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
+  - Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
 
 	- This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
@@ -37,7 +37,7 @@ To address the identified issues, we propose an innovative platform that leverag
     - **As Displays**: Similarly, any device with a browser can serve as a display. This includes smart TVs, laptops, tablets, and even smartphones, making it possible for players to share screens in real-time, whether they are in the same room or across the globe.
 
   - **Open-Source Emulators**: By integrating open-source emulators into our platform, we can support a wide array of classic and modern games without the need for proprietary hardware.
- 
+
 ---
 
 ## Current Market Situation
@@ -45,7 +45,7 @@ To address the identified issues, we propose an innovative platform that leverag
 - ### Cloud Gaming
 
 	<details>
-			<summary> click for an overview </summary>
+      <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -60,12 +60,12 @@ To address the identified issues, we propose an innovative platform that leverag
 
 	</details>
 
-		- ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
+	- ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
 
 - ### Traditional Consoles
 
 	<details>
-			<summary> click for an overview </summary>
+    <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ To address the identified issues, we propose an innovative platform that leverag
 - ### PC Gaming
 
 	<details>
-			<summary> click for an overview </summary>
+	  <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ To address the identified issues, we propose an innovative platform that leverag
 
 # <p align="center"> 4. General Conditions and Constraints </p>
 
-### Technical Frameworks
+## Technical Frameworks
 
 - **Technology Stack**:
 	- **Frontend**:
@@ -203,7 +203,7 @@ To address the identified issues, we propose an innovative platform that leverag
 	- **Compatibility**:
 		Initial version Android & Chromium, later expansion to iOS.
 
-### Gameplay Mechanics and Use Cases
+## Gameplay Mechanics and Use Cases
 
 - **Game Types**:
 	Limited to turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
@@ -212,7 +212,7 @@ To address the identified issues, we propose an innovative platform that leverag
 	- Devices identify themselves via QR codes or short links for easy user-friendly registration in the game.
 	- No app required - everything runs in te browser!
 
-### Limitations and Challenges
+## Limitations and Challenges
 
 - **Latency Issues**:
 	Real-time games require fast reaction times.
@@ -229,7 +229,7 @@ To address the identified issues, we propose an innovative platform that leverag
 
 # <p align="center"> 5. Opportunities and Risks  </p>
 
-### Risks:
+## Risks
 
 - **Technical Challenges:**
 	- **Cross-Platform Compatibility:** Ensuring consistent performance across various browsers (e.g., Chrome, Firefox, Safari) and operating systems (Android, iOS) could be challenging.
@@ -244,7 +244,7 @@ To address the identified issues, we propose an innovative platform that leverag
 
 ---
 
-### Opportunities:
+## Opportunities
 
 - **Expandability:**
 	- **AI-Driven Features:** Use AI to enhance gameplay, such as adaptive difficulty in games, or to assist in moderating and verifying user-uploaded ROMs for authenticity and safety.
@@ -267,11 +267,9 @@ To address the identified issues, we propose an innovative platform that leverag
 
 # <p align="center"> 6. Planning  </p>
 
-### Timeline:
-
 ```mermaid
 gantt
-		title Game Platform Development Process
+		title Connect - Timeline
 		dateFormat  YYYY-MM-DD
 		axisFormat  %m-%d
 		section Planning & Research
@@ -309,71 +307,73 @@ gantt
 		Milestone Final Launch : milestone, done, 2026-03-22, "Pre-Launch Checklist"
 
 ```
-### Milestones Summary:
+## Milestones
 
-- **Concept Finalized**
+### **Concept Finalized**
   - **Date:** April 7, 2025
   - **Explanation:** This milestone marks the completion of the initial concept design phase. By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.
 
-- **Platform MVP**
+### **Platform MVP**
   - **Date:** July 6, 2025
   - **Explanation:** The Minimum Viable Product (MVP) of the platform is ready. This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions. It's a critical point to assess the platform's core functionalities before expanding further.
 
-- **Emulator Integration**
+### **Emulator Integration**
   - **Date:** October 4, 2025
   - **Explanation:** This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational. Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.
 
-- **Beta Release**
+### **Beta Release**
   - **Date:** December 15, 2025
   - **Explanation:** The beta version of the platform is released to a select group of users. This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs. Adjustments based on this feedback will be integrated into the final product.
 
-- **Final Launch**
+### **Final Launch**
   - **Date:** March 22, 2026
   - **Explanation:** This milestone signifies the completion of all preparatory work for the official launch. It includes final checks like server load tests, ensuring all systems are go, and marketing efforts are in place. The day before the actual launch is dedicated to ensuring everything is set for a successful rollout.
-
-These milestones serve as checkpoints to ensure the project is on track, providing clear goals and deadlines for the team, and offering points for review and adjustment of the project's direction based on progress and feedback.
 
 ---
 
 ## Budget
 
-### Development Costs:
+<details>
+    <summary> click for a comprehensive cost estimation </summary>
+
+### Development Costs
 - **Team Salaries:**
 	- **Full-Time Developers:**
-		- 2-3 Developers at \$80,000 - \$150,000/year each = **\$160,000 - \$450,000/year**.
+		- 2-3 Developers at €80.000 - €150.000/year each = **€160.000 - €450,000/year**.
 	- **Part-Time/Contractors:**
-		- UI/UX, Art, etc. at \$50/hour for 10 hours/week, 4 specialists = **\$104,000/year**.
+		- UI/UX, Art, etc. at €50/hour for 10 hours/week, 4 specialists = **€104.000/year**.
 
 - **Software Tools and Licenses:**
-	- Game Development (e.g., Unity/UE): \$0 - \$1,500/year.
-	- Web Tools, Hosting, Domain: \$1,000 - \$5,000/year.
-	- **Total Software Costs:** **\$1,000 - \$6,500/year**.
+	- Game Development (e.g., Unity/UE): €0 - €1500/year.
+	- Web Tools, Hosting, Domain: €1000 - €5000/year.
+	- **Total Software Costs:** **€1000 - €6500/year**.
 
 - **Hardware:**
-	- **Development Servers:** \$5,000 - \$10,000.
-	- **Testing Devices:** \$3,000 - \$10,000.
-	- **Total Hardware Costs:** **\$8,000 - \$20,000**.
+	- **Development Servers:** €5000 - €10.000.
+	- **Testing Devices:** €3000 - €10.000.
+	- **Total Hardware Costs:** **€8000 - €20.000**.
 
 - **Marketing and Promotion:**
 	- **Initial Launch:**
-		- Social Media, Influencers, Ads = **\$10,000 - \$20,000**.
+		- Social Media, Influencers, Ads = **€10.000 - €20.000**.
 	- **Ongoing Marketing:**
-		- Monthly Costs = **\$5,000 - \$15,000/month**.
-		- Annual Ongoing = **\$60,000 - \$180,000/year**.
-	- **Total Marketing:** **\$70,000 - \$200,000/year**.
+		- Monthly Costs = **€5000 - €15.000/month**.
+		- Annual Ongoing = **€60.000 - €180.000/year**.
+	- **Total Marketing:** **€70.000 - €200.000/year**.
 
 - **Legal and Compliance:**
-	- Legal Advice for Copyright, ROMs = **\$5,000 - \$20,000**.
+	- Legal Advice for Copyright, ROMs = **€5000 - €20.000**.
 
 - **Contingency Fund:**
-	- 10% - 15% of budget = **\$50,000 - \$75,000**.
+	- 10% - 15% of budget = **€50.000 - €75.000**.
 
-**Total Estimated Budget for First Year:**
-- **Low Estimate:** \$400,000 (Based on lower range of costs).
-- **High Estimate:** \$750,000 (Including higher salaries, robust marketing).
+</details>
 
+- **Total Estimated Budget for First Year:**
+  - **Low Estimate:** €400.000
+  - **High Estimate:** €750.000 (Including higher salaries, robust marketing).
 
-## Mean Costs Breakdown:
+- #### Mean Costs Breakdown
 
 <!---
 ```mermaid
