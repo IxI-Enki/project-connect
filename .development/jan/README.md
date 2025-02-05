@@ -387,7 +387,7 @@ gantt
   - **Low Estimate:** €400.000
   - **High Estimate:** €750.000 (Including higher salaries, robust marketing).
 
-- #### Mean Costs
+- #### Estimate on Costdistribution  
 
 ```mermaid
 pie title Breakdown
