@@ -45,7 +45,7 @@ A system that offers the flexibility to use any internet-capable device as a dis
   | **Trends**                     | Increasing use of 5G, expansion into mobile gaming, integration with metaverse <sub>([Scoop.market.us](https://scoop.market.us))</sub> |
 
 
-    - ### [Deeper research on Cloud Gaming]()
+    - ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
 
   </details>
 
