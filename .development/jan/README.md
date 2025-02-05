@@ -1,6 +1,6 @@
 # <p align="center"> 1. Initial Situation  </p>
 
-*Once upon a time, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
+*Not too long ago, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
 
 By merging these concepts, we can bring back the familial atmosphere of game nights into living rooms and beyond.
 Despite the significant advancements in gaming technology, there remain challenges that hinder a seamless gaming experience. Particularly noticeable are the limitations due to dependence on specific hardware and the complexity of setting up multiple devices for group play.
@@ -17,7 +17,7 @@ Despite the significant advancements in gaming technology, there remain challeng
   - Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
   - This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
-Our [analysis of the current market]() shows that the avaliable offerings often do not meet these requirements.
+Our [analysis of the current market](https://github.com/IxI-Enki/project-connect/proposal.md/#current-market-situation) shows that the avaliable offerings often do not meet these requirements.
 
 ---
 
@@ -261,7 +261,8 @@ To address the identified issues, we propose an innovative platform that leverag
 
 - **Sustainability and Innovation:**
   - **Open-Source Collaboration:** Contribute to or collaborate with open-source emulator projects, enhancing credibility and potentially gaining support from the open-source community.
-	---
+
+---
 
 # <p align="center"> 6. Planning  </p>
 
@@ -308,34 +309,49 @@ gantt
 ## Milestones
 
 ### **Concept Finalized**  
-  - **Date:** April 7, 2025  
-  - **Explanation:**  
+  
+  | **Date:** | April 7, 2025 |  
+  |:----------|:-------------:|  
+  
+  - ***Explanation:***  
     This milestone marks the completion of the initial concept design phase.    
     By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.  
 
 ### **Platform MVP**  
-  - **Date:** July 6, 2025  
-  - **Explanation:**  
+
+  | **Date:** | July 6, 2025 |  
+  |:----------|:------------:|  
+  
+  - ***Explanation:***  
     The Minimum Viable Product (MVP) of the platform is ready.  
     This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions.  
     It's a critical point to assess the platform's core functionalities before expanding further.  
 
 ### **Emulator Integration**  
-  - **Date:** October 4, 2025  
-  - **Explanation:**  
+
+  | **Date:** | October 4, 2025 |  
+  |:----------|:---------------:|  
+
+  - ***Explanation:***  
     This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational.  
     Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.  
 
 ### **Beta Release**  
-  - **Date:** December 15, 2025  
-  - **Explanation:**  
+
+  | **Date:** | December 15, 2025 |  
+  |:----------|:-----------------:|  
+
+  - ***Explanation:***  
     The beta version of the platform is released to a select group of users.  
     This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs.  
     Adjustments based on this feedback will be integrated into the final product.  
 
 ### **Final Launch**  
-  - **Date:** March 22, 2026  
-  - **Explanation:**  
+  
+  | **Date:** | March 22, 2026 |  
+  |:----------|:--------------:|  
+  
+  - ***Explanation:***  
     This milestone signifies the completion of all preparatory work for the official launch.  
     It includes final checks like server load tests, ensuring all systems are go, and marketing efforts are in place.  
     The day before the actual launch is dedicated to ensuring everything is set for a successful rollout.  
