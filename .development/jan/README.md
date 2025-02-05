@@ -7,18 +7,15 @@ Despite the significant advancements in gaming technology, there remain challeng
 
 ### Security Risks:
   - Using cloud services for gaming can lead to privacy issues since sensitive data such as game saves or personal information might be stored in the cloud.
-
-	- Security vulnerabilities in device communication could also lead to unauthorized access or data breaches.
+  - Security vulnerabilities in device communication could also lead to unauthorized access or data breaches.
 
 ### Complexity Issues:
   - Configuring multiplayer mode often requires complex setups, which can be a barrier for users less familiar with technology.
-
-	- The need to synchronize various platforms and devices can negatively impact the gaming experience.
+  - The need to synchronize various platforms and devices can negatively impact the gaming experience.
 
 ### Dependence on Third Parties:
   - Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
-
-	- This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
+  - This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
 Our [analysis of the current market]() shows that the avaliable offerings often do not meet these requirements.
 
