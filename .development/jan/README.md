@@ -42,13 +42,13 @@ To address the identified issues, we propose an innovative platform that leverag
 
 - ### Cloud Gaming
 
-	<details>
+  <details>
       <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
-	| **Market Size (2024)**         | Estimated at \$863.5 million <sub>([FactMR](https://www.factmr.com))</sub>             |
-	| **Projected Market Size (2032)**| Expected to reach \$143.4 billion by 2032, growing at a CAGR of 46.9% <sub>([Scoop.market.us](https://scoop.market.us), [Market.us](https://market.us))</sub> |
+	| **Market Size (2024)**         | Estimated at \$863,5 million <sub>([FactMR](https://www.factmr.com))</sub>             |
+	| **Projected Market Size (2032)**| Expected to reach \$143,4 billion by 2032, growing at a CAGR of 46,9% <sub>([Scoop.market.us](https://scoop.market.us), [Market.us](https://market.us))</sub> |
 	| **Key Users**                  | Casual players, smartphone users, those without high-performance hardware <sub>([Verified Market Research](https://www.verifiedmarketresearch.com))</sub> |
 	| **Leading Companies**           | Utomik BV, Nvidia Corporation, Google Stadia (Alphabet Inc), Ubitus Inc., Microsoft (Xbox Cloud Gaming) <sub>([Roots Analysis](https://www.rootsanalysis.com), [SkyQuest Technology](https://www.skyquestt.com))</sub> |
 	| **Devices**                     | Smartphones, tablets, gaming consoles, PCs, smart TVs, head-mounted displays <sub>([Statista Market Forecast](https://www.statista.com))</sub> |
@@ -56,19 +56,19 @@ To address the identified issues, we propose an innovative platform that leverag
 	| **Challenges**                  | Network latency, need for heavy infrastructure, not universally accessible internet speeds <sub>([Expert Market Research](https://www.expertmarketresearch.com))</sub> |
 	| **Trends**                     | Increasing use of 5G, expansion into mobile gaming, integration with metaverse <sub>([Scoop.market.us](https://scoop.market.us))</sub> |
 
-	</details>
+  </details>
 
-	- ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
+  - ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
 
 - ### Traditional Consoles
 
-	<details>
+  <details>
     <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
-	| **Market Size (2023)**         | Digital console gaming market sales at \$32.1 billion <sub>([Newzoo's Global Games Market Report](https://newzoo.com))</sub> |
-	| **Projected Market Size (2032)**| Expected to grow from \$11.3 billion in 2022 to \$44.1 billion by 2032, at a CAGR of 15% <sub>([Statista](https://www.statista.com))</sub> |
+	| **Market Size (2023)**         | Digital console gaming market sales at \$32,1 billion <sub>([Newzoo's Global Games Market Report](https://newzoo.com))</sub> |
+	| **Projected Market Size (2032)**| Expected to grow from \$11,3 billion in 2022 to \$44,1 billion by 2032, at a CAGR of 15% <sub>([Statista](https://www.statista.com))</sub> |
 	| **Key Users**                  | Hardcore gamers, those preferring physical interaction with gaming <sub>([Gaming Industry Insights](https://www.gamingindustryinsights.com))</sub> |
 	| **Leading Companies**           | Sony Interactive Entertainment (PlayStation), Microsoft (Xbox), Nintendo <sub>([VentureBeat](https://venturebeat.com))</sub> |
 	| **Devices**                     | PlayStation, Xbox, Nintendo Switch <sub>([IGN](https://www.ign.com))</sub>             |
@@ -76,17 +76,17 @@ To address the identified issues, we propose an innovative platform that leverag
 	| **Challenges**                  | High cost of entry, need for periodic hardware upgrades, physical space requirements <sub>([Kotaku](https://kotaku.com))</sub> |
 	| **Trends**                     | Enhanced graphics capabilities, cross-platform play, subscription services expansion <sub>([Polygon](https://www.polygon.com))</sub> |
 
-	</details>
+  </details>
 
 - ### PC Gaming
 
-	<details>
-	  <summary> click for an overview </summary>
+  <details>
+    <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
-	| **Market Size (2023)**         | Digital PC gaming market sales at \$45.8 billion <sub>([Newzoo's Global Games Market Report](https://newzoo.com))</sub> |
-	| **Projected Market Size (2030)**| Predicted to reach around \$276.0 billion by 2033, with a CAGR of 11.2% from 2024 to 2033 <sub>([Statista](https://www.statista.com))</sub> |
+	| **Market Size (2023)**         | Digital PC gaming market sales at \$45,8 billion <sub>([Newzoo's Global Games Market Report](https://newzoo.com))</sub> |
+	| **Projected Market Size (2030)**| Predicted to reach around \$276 billion by 2033, with a CAGR of 11,2% from 2024 to 2033 <sub>([Statista](https://www.statista.com))</sub> |
 	| **Key Users**                  | Enthusiasts, professional gamers, modders, those seeking customization <sub>([PC Gamer](https://www.pcgamer.com))</sub> |
 	| **Leading Companies**           | Valve Corporation (Steam), Electronic Arts, Blizzard Entertainment <sub>([Steam](https://store.steampowered.com), [GameSpot](https://www.gamespot.com))</sub> |
 	| **Devices**                     | Gaming PCs, laptops <sub>([Tom's Hardware](https://www.tomshardware.com))</sub>       |
@@ -94,7 +94,7 @@ To address the identified issues, we propose an innovative platform that leverag
 	| **Challenges**                  | High setup cost, need for frequent hardware updates, piracy <sub>([PCWorld](https://www.pcworld.com))</sub> |
 	| **Trends**                     | Increased focus on high-fidelity graphics, VR gaming, eSports, modding culture <sub>([Wired](https://www.wired.com))</sub> |
 
-	</details>
+  </details>
 
 ---
 
@@ -102,22 +102,22 @@ To address the identified issues, we propose an innovative platform that leverag
 
 > **Connect** is a platform that revolutionizes gaming by allowing any browser-capable device to be used as a display or controller.
 
-## **Registration and Role Assignment:**
+## Registration and Role Assignment:
 - **Display:** Each session can be shown on one or more displays.
 - **Controller:** Smartphones or tablets can serve as game controllers.
 - **Role Selection:** Users choose on the landing page whether their device will act as a display or controller.
 
-## **Session Management:**
+## Session Management:
 - **Session Creation:** A user creates a session and receives a QR code or link.
 - **Session Joining:** Others scan the QR code or use the link to connect.
 - **User-Friendliness:** Easy operation through QR codes and an intuitive, minimalist interface.
 - **Flexibility:** Support for local, online, and mixed gaming modes.
 
-## **Emulation:**
+## Emulation:
 - **Own Emulator:** Start with our proprietary emulator for popular family games, beginning with card games like UNO, Schnapsen, then board games, all free and simple to use.
 - **Expansion:** Gradually integrate open-source console emulators, one at a time, with community input on priority.
 
-## **Technical Implementation:**
+## Technical Implementation:
 - **Web-App:** Blazor/AvaloniaUI for the frontend, ASP.NET for the backend, and a light/slim database/manager.
   <!-- React/Angular für Frontend, Node.js/Express.js oder Django für Backend, PostgreSQL/MongoDB für Datenbank. -->
 - **Mobile-App:** Can be implemented with the same tech stack.
@@ -308,7 +308,7 @@ gantt
 
 ## Milestones
 
-### **Concept Finalized**  
+### Concept Finalized  
   
   | **Date:** | April 7, 2025 |  
   |:----------|:-------------:|  
@@ -317,7 +317,7 @@ gantt
     This milestone marks the completion of the initial concept design phase.    
     By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.  
 
-### **Platform MVP**  
+### Minimum Viable Product (MVP)  
 
   | **Date:** | July 6, 2025 |  
   |:----------|:------------:|  
@@ -327,7 +327,7 @@ gantt
     This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions.  
     It's a critical point to assess the platform's core functionalities before expanding further.  
 
-### **Emulator Integration**  
+### Emulator Integration  
 
   | **Date:** | October 4, 2025 |  
   |:----------|:---------------:|  
@@ -336,7 +336,7 @@ gantt
     This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational.  
     Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.  
 
-### **Beta Release**  
+### Beta Release  
 
   | **Date:** | December 15, 2025 |  
   |:----------|:-----------------:|  
@@ -346,7 +346,7 @@ gantt
     This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs.  
     Adjustments based on this feedback will be integrated into the final product.  
 
-### **Final Launch**  
+### Final Launch  
   
   | **Date:** | March 22, 2026 |  
   |:----------|:--------------:|  
