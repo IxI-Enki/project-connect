@@ -61,5 +61,14 @@
   - Streaming quality could be better.
   - Not as well-known as larger providers.
 
+### 6. Google Stadia
+- Advantages:
+  - Stadia runs games on Google's cloud servers, so you don't need a high-end gaming PC or console.
+  - Instant Play – No downloads or installations required. Just click and start playing.
+  - Google’s powerful cloud infrastructure allows for high-end performance and easy upgrades without needing new hardware.
+- Disadvantages:
+  - Requires a Strong Internet Connection – Stadia needs at least 10 Mbps for 720p and 35 Mbps for 4K gaming. Lag can be an issue.
+  - Limited Game Library – Compared to PlayStation, Xbox, or Steam, Stadia had fewer games and lacked many major exclusives.
+  - Google’s History of Killing Projects – Google has a reputation for shutting down services, this concern proved valid as Google officially shut down Stadia in January 2023.
 
 ---
