@@ -34,7 +34,7 @@ To address the identified issues, we propose an innovative platform that leverag
     - **As Displays**: Similarly, any device with a browser can serve as a display. This includes smart TVs, laptops, tablets, and even smartphones, making it possible for players to share screens in real-time, whether they are in the same room or across the globe.
 
   - **Open-Source Emulators**: By integrating open-source emulators into our platform, we can support a wide array of classic and modern games without the need for proprietary hardware.
-    - **[Example List of Open Source Emulators](https://github.com/alnacle/awesome-emulators?tab=readme-ov-file#nintendo64)**
+    - **[Collection/Github Repository of Open Source Emulators](https://github.com/alnacle/awesome-emulators?tab=readme-ov-file#nintendo64)**
 
 ---
 
