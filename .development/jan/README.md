@@ -401,6 +401,6 @@ pie title Project Cost Breakdown
 ```
 -->
 
- ![mean costs breakdown](breakdown-1.png)
+ <img alt="mean costs breakdown" src="breakdown-1.png" width= 60%>
 
 > **Note:** These figures are speculative and should be adjusted based on actual team composition, legal requirements, and marketing strategy effectiveness, launch and advertising of the platform.
