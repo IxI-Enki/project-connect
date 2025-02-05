@@ -387,11 +387,10 @@ gantt
   - **Low Estimate:** €400.000
   - **High Estimate:** €750.000 (Including higher salaries, robust marketing).
 
-- #### Mean Costs Breakdown
+- #### Mean Costs
 
-<!---
 ```mermaid
-pie title Project Cost Breakdown
+pie title Breakdown
 		"Team Salaries" : 264000
 		"Software" : 1000
 		"Hardware" : 8000
@@ -399,8 +398,7 @@ pie title Project Cost Breakdown
 		"Legal" : 5000
 		"Contingency" : 50000
 ```
--->
 
- <img alt="mean costs breakdown" src="breakdown-1.png" width= 60%>
+ <!-- <img alt="mean costs breakdown" src="breakdown-1.png" width= 60%> -->
 
 > **Note:** These figures are speculative and should be adjusted based on actual team composition, legal requirements, and marketing strategy effectiveness, launch and advertising of the platform.
