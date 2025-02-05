@@ -1,6 +1,3 @@
-###### <p align=center> n o t e s </p>
-
-
 # Initial Situation
 *Once upon a time, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
 By merging these concepts, we can bring back the familial atmosphere of game nights into living rooms and beyond.
