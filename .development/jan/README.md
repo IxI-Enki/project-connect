@@ -204,7 +204,7 @@ To address the identified issues, we propose an innovative platform that leverag
 ## Gameplay Mechanics and Use Cases
 
 - **Game Types**:
-	Limited to turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
+	For our first goals we scope for turn-based or non-time-sensitive games because of the fact of latency issues, e.g. educational games, turn-based strategy a.s.o.
 
 - **Connection Methods**:
 	- Devices identify themselves via QR codes or short links for easy user-friendly registration in the game.
