@@ -6,17 +6,17 @@ By merging these concepts, we can bring back the familial atmosphere of game nig
 Despite the significant advancements in gaming technology, there remain challenges that hinder a seamless gaming experience. Particularly noticeable are the limitations due to dependence on specific hardware and the complexity of setting up multiple devices for group play.
 
 ### Security Risks:
-	- Using cloud services for gaming can lead to privacy issues since sensitive data such as game saves or personal information might be stored in the cloud.
+  - Using cloud services for gaming can lead to privacy issues since sensitive data such as game saves or personal information might be stored in the cloud.
 
 	- Security vulnerabilities in device communication could also lead to unauthorized access or data breaches.
 
 ### Complexity Issues:
-	- Configuring multiplayer mode often requires complex setups, which can be a barrier for users less familiar with technology.
+  - Configuring multiplayer mode often requires complex setups, which can be a barrier for users less familiar with technology.
 
 	- The need to synchronize various platforms and devices can negatively impact the gaming experience.
 
 ### Dependence on Third Parties:
-	- Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
+  - Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
 
 	- This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
@@ -35,7 +35,7 @@ A system that offers the flexibility to use any internet-capable device as a dis
 - ### Cloud Gaming
 
 	<details>
-			<summary> click for an overview </summary>
+      <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -50,12 +50,12 @@ A system that offers the flexibility to use any internet-capable device as a dis
 
 	</details>
 
-		- ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
+	- ### [Deeper research on Cloud Gaming](https://github.com/IxI-Enki/project-connect/blob/master/market-analysis.md)
 
 - ### Traditional Consoles
 
 	<details>
-			<summary> click for an overview </summary>
+    <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ A system that offers the flexibility to use any internet-capable device as a dis
 - ### PC Gaming
 
 	<details>
-			<summary> click for an overview </summary>
+	  <summary> click for an overview </summary>
 
 	| **Aspect**                     | **Details**                                                                 |
 	|--------------------------------|----------------------------------------------------------------------------|
@@ -257,11 +257,9 @@ A system that offers the flexibility to use any internet-capable device as a dis
 
 # <p align="center"> 6. Planning  </p>
 
-### Timeline:
-
 ```mermaid
 gantt
-		title Game Platform Development Process
+		title Connect - Timeline
 		dateFormat  YYYY-MM-DD
 		axisFormat  %m-%d
 		section Planning & Research
@@ -299,29 +297,27 @@ gantt
 		Milestone Final Launch : milestone, done, 2026-03-22, "Pre-Launch Checklist"
 
 ```
-### Milestones Summary:
+## Milestones:
 
-- **Concept Finalized**
+- ### **Concept Finalized**
   - **Date:** April 7, 2025
   - **Explanation:** This milestone marks the completion of the initial concept design phase. By this date, the core idea of the platform, including user interface design, game mechanics, and the overall vision, should be finalized, incorporating any feedback from potential users or stakeholders.
 
-- **Platform MVP**
+- ### **Platform MVP**
   - **Date:** July 6, 2025
   - **Explanation:** The Minimum Viable Product (MVP) of the platform is ready. This includes the basic functionality allowing users to connect devices, play games through the proprietary emulator, and manage sessions. It's a critical point to assess the platform's core functionalities before expanding further.
 
-- **Emulator Integration**
+- ### **Emulator Integration**
   - **Date:** October 4, 2025
   - **Explanation:** This milestone indicates that the system for integrating open-source emulators and managing the ROM library is operational. Users can now upload, verify, and play games from various consoles, with a community-driven approach to prioritize which consoles to support.
 
-- **Beta Release**
+- ### **Beta Release**
   - **Date:** December 15, 2025
   - **Explanation:** The beta version of the platform is released to a select group of users. This phase is crucial for gathering real-world user feedback, identifying bugs, and understanding user acceptance and needs. Adjustments based on this feedback will be integrated into the final product.
 
-- **Final Launch**
+- ### **Final Launch**
   - **Date:** March 22, 2026
   - **Explanation:** This milestone signifies the completion of all preparatory work for the official launch. It includes final checks like server load tests, ensuring all systems are go, and marketing efforts are in place. The day before the actual launch is dedicated to ensuring everything is set for a successful rollout.
-
-These milestones serve as checkpoints to ensure the project is on track, providing clear goals and deadlines for the team, and offering points for review and adjustment of the project's direction based on progress and feedback.
 
 ---
 
