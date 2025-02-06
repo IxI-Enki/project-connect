@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="img/logo.png" alt="connect-logo" width=40%>
+  <img src="img/logo.svg" alt="connect-logo" width=40%>
 
 </div>
 
@@ -61,10 +61,4 @@
     - #### [Development Costs Estimation](https://github.com/IxI-Enki/project-connect/blob/proposal-final/proposal.md#estimate-on-cost-distribution)
 
 
-
-
 ---
-
-
-
-<img src="D:\logo.svg">
