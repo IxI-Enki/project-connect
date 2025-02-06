@@ -1,3 +1,9 @@
+<div align="center">
+
+  <img src="img\connect-logo.svg" alt="Logo" width=60%>
+
+</div>
+
 # <p align="center"> 1. Initial Situation  </p>
 
 *Not too long ago, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
