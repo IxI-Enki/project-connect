@@ -11,8 +11,8 @@
 
 <div align="center">
 
-  |   *colaborators*   |   *profile*   |
-  |:------:|:------:|
+  |    *Team-Member*    |   *git-profile*                        |
+  |:-------------------:|:--------------------------------------:|
   |   Imre Obermüller   |   [git](https://github.com/Imre7777)   |
   |   Jan Ritt          |   [git](https://github.com/IxI-Enki)   |
 
