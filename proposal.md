@@ -4,6 +4,16 @@
 
 </div>
 
+<div align="right">
+
+  |   *Team-member*   |   *git-profile*                            |
+  |:-----------------:|:--------------------------------------:|
+  |  Imre Obermüller  |   [git](https://github.com/Imre7777)   |
+  |  Jan Ritt         |   [git](https://github.com/IxI-Enki)   |
+
+</div>
+
+
 # <p align="center"> 1. Initial Situation  </p>
 
 *Not too long ago, the board and card games found in every household brought together people of all ages – and in today's digitally connected world, gaming has become one of the most popular leisure activities.*
