@@ -33,7 +33,7 @@ Despite the significant advancements in gaming technology, there remain challeng
   - Many games require special devices like consoles and controllers, which incurs additional costs and dependencies on manufacturers or cloud services.
   - This reduces the control users have over their gaming experience and raises the barrier to entry for new players.
 
-Our [analysis of the current market](https://github.com/IxI-Enki/project-connect/proposal.md/#current-market-situation) shows that the avaliable offerings often do not meet these requirements.
+Our [analysis of the current market](https://github.com/IxI-Enki/project-connect/blob/master/proposal.md#current-market-situation) shows that the avaliable offerings often do not meet these requirements.
 
 ---
 
