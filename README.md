@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="img/logo-connect.svg" alt="connect-logo" width=40%>
+  <img src="img/logo-connect.svg" alt="connect-logo" width=30%>
 
 </div>
 
