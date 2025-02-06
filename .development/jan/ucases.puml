@@ -1,0 +1,139 @@
+```plantuml
+ @startuml
+
+skinparam rankdir "LR"
+skinparam linetype ortho
+skinparam actorStyle awesome
+skinparam ranksep 19
+' # Increase vertical space between ranks
+skinparam nodesep 35
+' # Increase horizontal space between nodes
+
+rectangle " " as system {
+  actor Admin as Admin
+  rectangle "Game Platform" as connect {
+
+	rectangle "User Functions" as uf{
+	usecase (Register) as (UC1)
+	usecase (Login) as (UC2)
+	usecase (Select Role \n[Display/Controller]) as (UC3)
+	usecase (Create Session) as (UC4)
+	usecase (Join Session) as (UC5)
+	usecase (Play Game) as (UC6)
+	usecase (View Game Library) as (UC7)
+	usecase (Rate Game) as (UC8)
+	usecase (Provide Feedback) as (UC9)
+	usecase (View Leaderboard) as (UC16)
+	usecase (Participate in Tournaments) as (UC17)
+UC6 -up[hidden]- UC5
+UC7 -up[hidden]- UC9
+UC7 -left[hidden]- UC3
+UC1 -right[hidden]- UC2
+UC2 -right[hidden]- UC16
+UC3 -right[hidden]- UC16
+
+	}
+
+	rectangle af as "Advanced User Functions" {
+	usecase (Upload ROM) as (UC10)
+	usecase (Verify ROM) as (UC11)
+	usecase (Modify ROM) as (UC12)
+	usecase (Subscribe to ROM Service) as (UC13)
+	}
+	uf -left[hidden]- af
+
+	rectangle "Admin Functions" as a{
+	usecase (Manage Community \nEvents) as (UC14)
+	usecase (Moderate Content) as (UC15)
+	}
+  }
+  Admin -left[hidden]- connect
+  Admin -left[hidden]- a
+  Admin -left[hidden]- af
+  Admin -down[hidden]- connect
+  Admin -down[hidden]- a
+actor AdvancedUser as advancedUser
+
+note top of advancedUser
+  Advanced User
+end note
+}
+
+actor User as user
+
+advancedUser -down[hidden]- af
+advancedUser -right[hidden]- af
+advancedUser -down[hidden]- system
+advancedUser -down[hidden]- connect
+advancedUser -up[hidden]- Admin
+user -up[hidden]- UC2
+user -up[hidden]- UC1
+UC2 -down[hidden]- UC3
+UC4 -left[hidden]- UC3
+
+
+UC16 -up[hidden]- UC17
+UC16 -right[hidden]- UC17
+
+'# Positioning actors
+uf -right[hidden]- af
+advancedUser -right[hidden]- system
+af -left[hidden]- system
+
+user -up[hidden]- connect
+user -up[hidden]- uf
+user -right[hidden]- uf
+user -down[hidden]- a
+user -left[hidden]- system
+user -up[hidden]- system
+
+'# Connections
+user --> UC1
+user --> UC2
+user --> UC3
+user --> UC4
+user --> UC5
+user --> UC6
+user --> UC7
+user --> UC8
+user --> UC9
+user --> UC16
+user --> UC17
+
+advancedUser --> UC10
+advancedUser --> UC11
+advancedUser --> UC12
+advancedUser --> UC13
+
+Admin --> UC14
+Admin --> UC15
+
+' # Relationships between use cases
+UC1 -.-> UC2 : <<extends>>
+UC2 -.-> UC3 : <<extends>>
+UC3 -.-> UC4 : <<extends>>
+UC3 -.-> UC5 : <<extends>>
+UC4 -.-> UC6 : <<extends>>
+UC5 -.-> UC6 : <<extends>>
+UC6 -.-> UC7 : <<extends>>
+UC6 -.-> UC8 : <<extends>>
+UC6 -.-> UC9 : <<extends>>
+UC10 -.-> UC11 : <<extends>>
+UC11 -.-> UC12 : <<extends>>
+UC12 -.-> UC13 : <<extends>>
+UC14 -.-> UC15 : <<extends>>
+UC6 -.-> UC16 : <<extends>>
+UC6 -.-> UC17 : <<extends>>
+
+
+' # Notes for clarification
+note top of user
+  Core User
+end note
+
+
+note top of Admin
+  Administrator
+end note
+
+@enduml
