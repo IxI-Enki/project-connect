@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="img\logo-connect.svg" alt="Logo" width=40%>
+  <img src="img\connect-vector.svg" alt="Logo" width=50%>
 
 </div>
 
