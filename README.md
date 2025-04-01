@@ -9,7 +9,7 @@
 
 # <p align="center"> [Full Proposal](proposal.md)</p>
 
-## <p align="center"> [Product Backlog](https://github.com/IxI-Enki/project-connect/blob/master/.development/jan/user-stories.md)</p>
+## <p align="center"> [Product Backlog](https://github.com/IxI-Enki/project-connect/blob/master/.development/jan/stories.md)</p>
 
 <div align="center">
 
