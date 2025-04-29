@@ -20,7 +20,9 @@
 ### Connection - Websockets
   <img src="demo-websockets-2.png" alt="websocket-Demo">
 
-### Session - Identifier/Restriction
+### Session - Identifier/Restriction (example with 3 connections limit)
+ 
+  ![Example with 3 Max](https://github.com/user-attachments/assets/6983eae2-ae2d-4349-8c93-120e86066576)
 
 
 ### Game - Draw-Cards
