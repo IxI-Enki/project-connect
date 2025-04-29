@@ -20,5 +20,8 @@
 ### Connection - Websockets
   <img src="demo-websockets-2.png" alt="websocket-Demo">
 
+### Session - Identifier/Restriction
+
+
 ### Game - Draw-Cards
   ![Draw-Cards](https://github.com/user-attachments/assets/d02e6824-713f-4ec9-b803-46d26bdf7f79)
