@@ -1,3 +1,5 @@
+# User-Stories
+
 | ID               | PRIO | EPIC       | USER STORY                                                                                                                                                                                                                                                                                            | Criteria of Satisfaction (CoS)                                                                                                                                                                                                                                                                             | Effort | Time Spent |
 | :------          | :--- | :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                     | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                   | :----- | :--------- |
 | **websocket**    | 01   | Connection | As a User, I want to connect my device to a shared session via WebSockets, so that I can see real-time visual updates (like background color changes) triggered by other connected devices.                                                                                                           | Multiple devices can connect to the same session using WebSockets within the same network. An action (e.g., button click) on one connected device triggers a visible change (e.g., background color update) on all other connected devices in near real-time.                                              | 3      |    3h      |
@@ -11,3 +13,12 @@
 | **ace_high**     | 09   | Game       | As a Player, I want to participate in a simple "Ace is High" game where each player draws one card (using draw_cards & controller) from a shared deck (random_deck), and the Display indicates the winner (player with the highest card, Ace high), so that we can test the end-to-end gameplay loop. | Host starts session (display). Multiple controllers join. Each player uses controller action  to draw one card from the randomized deck. Display shows cards drawn by each player. Display correctly identifies and indicates the winning player based on Ace > King > ... > 2 ranking.                    | 8      |            |
 | **session**      | 10   | Backend    | As a Developer, I want the backend to reliably manage session lifecycles (creation, active state, termination) and handle the real-time message passing between Controllers and the Display, so that the user experience is stable and interactive.                                                   | Backend can create unique sessions. Backend routes messages from a specific Controller to the correct Display within the same session. Backend maintains session state while participants are connected. Basic handling for participant disconnection is implemented (e.g., session cleanup/notification). | 5      |            |
   
+-------------------------
+
+# Roadmap
+
+### Connection - Websockets
+  
+
+### Game - Draw-Cards
+  ![Draw-Cards](https://github.com/user-attachments/assets/d02e6824-713f-4ec9-b803-46d26bdf7f79)
