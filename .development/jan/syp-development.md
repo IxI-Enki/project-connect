@@ -1,12 +1,9 @@
-# Ace is High
+# <p align="center"> Ace is High - Entities</p>
 
-## Entitäten
 ```mermaid
 classDiagram
    direction LR
-namespace AceIsHighEntities{
-
-
+namespace Entities{
     class Card {
         +Guid Id
         +String[16] Suit
