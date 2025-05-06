@@ -11,6 +11,9 @@
 
 ## <p align="center"> [Product Backlog](https://github.com/IxI-Enki/project-connect/blob/master/.development/jan/stories.md)</p>
 
+## <p align="center"> [Diagrams](https://github.com/IxI-Enki/project-connect/blob/master/.development/jan/syp-development.md)</p>
+
+
 <div align="center">
 
   |    *Team-Member*    |   *git-profiles*                       |
