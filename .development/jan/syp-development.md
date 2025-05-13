@@ -2,7 +2,7 @@
 
 ```mermaid
 classDiagram
-   direction TB
+   direction LR
 namespace Entities{
     class Card {
         +Guid Id
