@@ -8,7 +8,50 @@
   - Eine Aktion (z. B. ein Button-Klick) auf einem verbundenen Gerät löst eine sichtbare Änderung (z. B. Hintergrundfarbänderung) auf allen anderen verbundenen Geräten in nahezu Echtzeit aus.
 
 - Priorität: 3  
-- Aufwand: 3 Stunden
+- Geschätzter Aufwand: 3 Stunden 🙈
+ 
+<!--
+```mermaid
+kanban
+    title Kanban-Board: WebSocket - Connection Sprint
+    section To Do
+        task Recherche und Planung
+            subtask Untersuchung der WebSocket-Technologie
+            subtask Integration in die bestehende Architektur planen
+            subtask Anforderungen für die Sitzungsverwaltung festlegen
+        task Backend-Entwicklung
+            subtask WebSocket-Server einrichten
+            subtask Logik für Nachrichtenverarbeitung implementieren
+            subtask Ereignisverarbeitung für Button-Klicks hinzufügen
+        task Frontend-Entwicklung
+            subtask WebSocket-Client in die Benutzeroberfläche integrieren
+            subtask Funktionalität für das Senden von Nachrichten implementieren
+            subtask Empfangene Nachrichten verarbeiten und anzeigen
+        task Testen
+            subtask Unit-Tests für die WebSocket-Verbindung schreiben
+            subtask Integrationstests für mehrere Geräte durchführen
+            subtask Echtzeit-Kommunikation testen
+        task Dokumentation
+            subtask Implementierungsdokumentation erstellen
+            subtask Nutzungsdokumentation für die WebSocket-Funktion schreiben
+    section In Progress
+        task Recherche und Planung
+            subtask Untersuchung der WebSocket-Technologie :done
+            subtask Integration in die bestehende Architektur planen
+            subtask Anforderungen für die Sitzungsverwaltung festlegen
+    section Review
+        task Backend-Entwicklung
+            subtask WebSocket-Server einrichten :done
+            subtask Logik für Nachrichtenverarbeitung implementieren :inprogress
+            subtask Ereignisverarbeitung für Button-Klicks hinzufügen
+    section Done
+        task Frontend-Entwicklung
+            subtask WebSocket-Client in die Benutzeroberfläche integrieren :done
+            subtask Funktionalität für das Senden von Nachrichten implementieren :done
+            subtask Empfangene Nachrichten verarbeiten und anzeigen :done
+``` -->
+
+---
 
 ## Sprint-Planung für „WebSocket - Connection“
 <!--Um diesen Backlog-Punkt rückwirkend in einen Sprint zu integrieren, gehen wir Schritt für Schritt vor. Das Ziel ist es, eine realistische Sprint-Struktur zu erstellen, die du zum Üben nutzen kannst.-->
@@ -49,6 +92,25 @@
   - Die Aufgaben im Sprint-Backlog besprechen.  
   - Verantwortlichkeiten zuweisen (z. B. Imre übernimmt Frontend, Jan übernimmt Backend).  
   - Sicherstellen, dass alle Ressourcen (z. B. Entwicklungsumgebung, Testgeräte) verfügbar sind.
+
+---
+- realistischer Aufwand
+```mermaid
+gantt
+    title Gantt Chart: WebSocket - Connection Sprint
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m-%d
+    section Tasks
+    Recherche und Planung    :a1, 2025-05-19, 0.5d
+    Backend-Entwicklung     :a2, after a1, 1d
+    Frontend-Entwicklung    :a3, after a1, 0.75d
+    Testen                  :a4, after a2, 0.5d
+    Dokumentation           :a5, after a4, 0.25d
+    section Reviews
+    Sprint Review           :a6, 2025-05-23, 1h
+    Sprint Retrospektive    :a7, after a6, 0.5h
+```
+---
 
 - ### Schritt 5: Durchführung des Sprints
   <!-- Während der Woche arbeitet das Team an den Aufgaben: -->
