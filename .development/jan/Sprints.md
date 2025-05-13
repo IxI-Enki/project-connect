@@ -1,4 +1,4 @@
-## Backlog-Punkt: WebSocket - Connection
+# Backlog-Punkt: WebSocket - Connection
 ### Titel: WebSocket - Connection  
 
 - **Beschreibung**: Als Benutzer möchte ich mein Gerät über WebSockets mit einer gemeinsamen Sitzung verbinden, um Echtzeit-Updates (wie Hintergrundfarbänderungen) zu sehen, die von anderen verbundenen Geräten ausgelöst werden.  
