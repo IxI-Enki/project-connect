@@ -121,7 +121,7 @@ gantt
     - **Dienstag-Mittwoch**: Backend- und Frontend-Entwicklung.  
     - **Donnerstag**: Testen.  
     - **Freitag**: Dokumentation und Abschluss.
-
+<!--
 - ### Schritt 6: Sprint-Review
   > Am Ende der Woche (z. B. Freitag) wird ein Sprint-Review abgehalten:  
   > Dauer: 1 Stunde.  
@@ -151,4 +151,4 @@ gantt
     - Dokumentation (2 Stunden)
     - **Team**: Imre Obermüller (Frontend), Jan Ritt (Backend)  
     - **Ergebnis**: Eine funktionsfähige WebSocket-Verbindung, die es mehreren Geräten ermöglicht, sich zu verbinden und Echtzeit-Updates (z. B. Hintergrundfarbänderungen) auszutauschen.
-
+-->
